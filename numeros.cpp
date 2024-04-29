@@ -1,6 +1,8 @@
 
 #include<iostream> //Insere a biblioteca para usar cin e cout
 #include <cmath> //Potência
+
+//1. FUP que leia um número. Imprima o sucessor e o antecessor do número informado.
  
 using namespace std;
 

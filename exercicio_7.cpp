@@ -1,5 +1,7 @@
 #include<iostream> //Insere a biblioteca para usar cin e cout
 #include <cmath> //Potência
+
+//7.FUP que leia uma valor em horas e converta para segundos.
  
 using namespace std;
 

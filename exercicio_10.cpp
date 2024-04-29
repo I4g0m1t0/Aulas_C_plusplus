@@ -5,7 +5,7 @@
 
 using namespace std;
 
-float A, B, Aantes, Bantes;
+int A, B, troca;
 
 main(){
 	system("chcp 65001"); //Insere caracteres especiais
@@ -17,11 +17,16 @@ main(){
 	cout<<"\n\n Insira o valor de B: ";
 	cin>>B;
 	
-	Aantes = B;
-	Bantes = A;
+	troca = B;
 	
-	cout<<"\n\n O valor de A era: "<<A<<" e ficou: "<<Aantes;
+	cout<<"\n\n O valor de A era: "<<A<<" e ficou: "<< troca;
 	
-	cout<<"\n\n O valor de B era: "<<B<<" e ficou: "<<Bantes;	
+	troca = B;
+	
+	cout<<"\n\n O valor de B era: "<<B;
+	
+	troca = A;
+	
+	cout <<" e ficou: "<< troca;	
 	
 }

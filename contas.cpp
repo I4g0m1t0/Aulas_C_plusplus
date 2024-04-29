@@ -1,6 +1,8 @@
 
 #include<iostream> //Insere a biblioteca para usar cin e cout
 #include <cmath> //Potência
+
+
  
 using namespace std;
 

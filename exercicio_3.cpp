@@ -1,6 +1,11 @@
 
 #include<iostream> //Insere a biblioteca para usar cin e cout
 #include <cmath> //Potência
+
+/*4. Modifique o progama 2(da lista) deduza 13% do valor
+   a receber pelo trabalhador. Esse valor é do INSS.
+   Imprima: o salário bruto, quanto de imposto foi 
+   tirado do salário e o salário final.*/
  
 using namespace std;
 
