@@ -26,6 +26,13 @@ main()
 	//exibindo a forma sorteada
 	if  (formas[forma_sorteada]=='c'){
 		cout<<"\n\n Figura sorteada: Círculo\n\n";
+		cout<<"    * * * * *    \n";
+        cout<<"  *           *  \n";
+        cout<<" *             * \n";
+        cout<<" *             * \n";
+        cout<<" *             * \n";
+        cout<<"  *           *  \n";
+        cout<<"    * * * * *    \n";
 		cout<<" Informe o valor do diâmetro do círculo: ";
 		cin>>diametro;
 		area_circunferencia = 3.14 * diametro;
@@ -36,6 +43,9 @@ main()
 	}
   	if  (formas[forma_sorteada]=='e'){
     	cout<<"\n\n Figura sorteada: Triângulo equilátero\n\n";
+    	cout<<"   *   \n";
+		cout<<"  * *  \n";
+		cout<<" * * * \n";
     	cout<<" Informe o valor do lado do triângulo: ";
     	cin>>lado;
     	area_total = (pow(lado, 2) * 1.7) / 4;
@@ -43,6 +53,11 @@ main()
 	}	
   	if  (formas[forma_sorteada]=='h'){
     	cout<<"\n\n Figura sorteada: Triângulo retângulo\n\n";
+    	cout<<" *         \n";
+		cout<<" * *       \n";
+		cout<<" *   *     \n";
+		cout<<" *     *   \n";
+		cout<<" * * * * * \n";
     	cout<<" Informe o valor da base do triângulo: ";
     	cin>>base;
     	cout<<" Informe o valor da altura do triângulo: ";
@@ -55,6 +70,11 @@ main()
     }
   	if  (formas[forma_sorteada]=='i'){
     	cout<<"\n\n Figura sorteada: Triângulo isósceles\n\n";
+    	cout<<"     *    \n";
+		cout<<"    * *   \n";
+ 		cout<<"   *   *  \n";
+		cout<<"  *     * \n";
+		cout<<" * * * * *\n";
     	cout<<" Informe o valor da base do triângulo: ";
     	cin>>base;
     	cout<<" Informe o valor da altura do triângulo: ";
@@ -66,6 +86,21 @@ main()
 	}
   	if  (formas[forma_sorteada]=='l'){
     	cout<<"\n\n Figura sorteada: Cilindro\n\n";
+    	cout<<"       _______\n";
+		cout<<"    .-´       `-.\n";
+		cout<<"  .´             `.\n";
+		cout<<" /                 \\n";
+ 		cout<<"|                   |\n";
+  		cout<<"|                   |\n";
+  		cout<<"|                   |\n";
+  		cout<<"|                   |\n";
+  		cout<<"|                   |\n";
+  		cout<<"|                   |\n";
+  		cout<<"|                   |\n";
+  		cout<<" \                 /\n";
+  		cout<<"  `.             .'\n";
+  		cout<<"    `-._______.-'\n";
+  		cout<<"\nImagine que isso é um Cilíndro, por favor\n\n";
     	cout<<" Informe o valor do raio da base do cilindro: ";
     	cin>>raio;
     	cout<<" Informe o valor da altura do cilindro: ";
@@ -76,6 +111,15 @@ main()
 	}
   	if  (formas[forma_sorteada]=='o'){
     	cout<<"\n\n Figura sorteada: Cone\n\n";
+    	cout<<"        *        \n";
+      	cout<<"       ***       \n";
+     	cout<<"      *****      \n";
+    	cout<<"     *******     \n";
+   		cout<<"    *********    \n";
+  		cout<<"   ***********   \n";
+ 		cout<<"  *************  \n";
+		cout<<" *************** \n";
+		cout<<"\nImagine que isso é um Cone, por favor\n\n";
     	cout<<" Informe o valor do raio da base do cone: ";
     	cin>>raio;
     	cout<<" Informe o valor da altura do cone: ";
@@ -85,6 +129,10 @@ main()
 	}
   	if  (formas[forma_sorteada]=='p'){
     	cout<<"\n\n Figura sorteada: Paralelograma\n\n";
+    	cout<<"    * * * * * * \n";
+  		cout<<"   *         *  \n";
+ 		cout<<"  *         *   \n";
+		cout<<" * * * * * *    \n";
     	cout<<" Informe o valor da base do paralelograma: ";
     	cin>>base;
     	cout<<" Informe o valor da altura do paralelograma: ";
@@ -97,6 +145,10 @@ main()
 	}
     if  (formas[forma_sorteada]=='q'){
     	cout<<"\n\n Figura sorteada: Quadrado\n\n";
+    	cout<<" * * * * \n";
+		cout<<" *     * \n";
+		cout<<" *     * \n";
+		cout<<" * * * * \n";
     	cout<<" Informe o valor do lado do quadrado: ";
     	cin>>lado;
     	perimetro = lado * 4;
@@ -105,6 +157,10 @@ main()
 	}
   	if  (formas[forma_sorteada]=='r'){
 		cout<<"\n\n Figura sorteada: Retângulo\n\n";
+		cout<<" * * * * * * \n";
+		cout<<" *         * \n";
+		cout<<" *         * \n";
+		cout<<" * * * * * * \n";
 		cout<<" Informe o valor da base do retângulo: ";
     	cin>>base;
     	cout<<" Informe o valor da altura do retângulo: ";
@@ -115,6 +171,11 @@ main()
 	}
 	if  (formas[forma_sorteada]=='t'){
     	cout<<"\n\n Figura sorteada: Triângulo\n\n";
+    	cout<<"     *         \n";
+ 		cout<<"    *  *       \n";
+ 		cout<<"   *     *     \n";
+ 		cout<<"  *        *   \n";
+		cout<<" * * * * * * * \n";
     	cout<<" Informe o valor da base do triângulo: ";
     	cin>>base;
     	cout<<" Informe o valor da altura do triângulo: ";
@@ -126,6 +187,12 @@ main()
 	}
     if  (formas[forma_sorteada]=='u'){
     	cout<<"\n\n Figura sorteada: Cubo\n\n";
+    	cout<<"    * * * * \n";
+        cout<<"  *     * * \n";
+        cout<<" * * * *  * \n";
+        cout<<" *     *  * \n";
+        cout<<" *     * *  \n";
+        cout<<" * * * *    \n";
     	cout<<"Informe o valor do lado do cubo";
     	cin>>lado;
     	volume = pow(lado, 3);
@@ -133,6 +200,10 @@ main()
 	}
   	if  (formas[forma_sorteada]=='z'){
 		cout<<"\n\n Figura sorteada: Trapézio\n\n";
+		cout<<"    * * * *    \n";
+		cout<<"   *       *   \n";
+ 		cout<<"  *         *  \n";
+		cout<<" * * * * * * * \n";
 		cout<<" Informe o valor da base menor do trapézio: ";
     	cin>>base;
     	cout<<" Informe o valor da base maior do trapézio: ";
